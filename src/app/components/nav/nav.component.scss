@@ -6,9 +6,26 @@ nav {
     list-style: none;
     flex-flow: column wrap;
     justify-content: center;
-    align-items: left;
+    align-items: center;
     & li {
-      margin-bottom: 2rem;
+      font-weight: bold;
+      margin-bottom: 4rem;
+      a {
+        text-decoration: none;
+        color: $primary;
+        font-size: 1.5rem;
+      }
+      h2 {
+        a {
+          font-size: 2rem;
+        }
+      }
+    }
+    li:hover {
+      background-color: $secondary;
+      a {
+        color: $light;
+      }
     }
   }
 }
