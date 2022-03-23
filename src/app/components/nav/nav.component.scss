@@ -1,0 +1,14 @@
+@import "../../../variables.scss";
+nav {
+  & ul {
+    color: $primary;
+    display: flex;
+    list-style: none;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: left;
+    & li {
+      margin-bottom: 2rem;
+    }
+  }
+}
