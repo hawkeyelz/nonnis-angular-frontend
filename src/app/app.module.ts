@@ -12,11 +12,15 @@ import { NavComponent } from './components/nav/nav.component';
 // import { ProductsComponent } from './components/products/products.component';
 import { componentsModule } from './components/componets-module';
 import { ComponentRoutingModule } from './components/componets-routing-module';
+import { LandingComponent } from './components/landing/landing.component';
+import { ErrorComponent } from './components/error/error.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
+    LandingComponent,
+    ErrorComponent,
     // BeedsComponent,
     // JewleryComponent,
     // ServicesComponent,
