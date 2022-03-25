@@ -9,6 +9,8 @@ import { ComponentRoutingModule } from './components/componets-routing-module';
 import { LandingComponent } from './components/landing/landing.component';
 import { ErrorComponent } from './components/error/error.component';
 import { StoreModule } from '@ngrx/store';
+import { ProductDisplayComponent } from './components/product-display/product-display.component';
+import { VideoBackgroundComponent } from './components/video-background/video-background.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +18,8 @@ import { StoreModule } from '@ngrx/store';
     NavComponent,
     LandingComponent,
     ErrorComponent,
+    ProductDisplayComponent,
+    VideoBackgroundComponent,
   ],
   imports: [
     BrowserModule,

@@ -14,7 +14,7 @@ const routes: Routes = [
   { path: 'Services', component: ServicesComponent },
   { path: 'Specials', component: SpecialsComponent },
   { path: 'Jewlery', component: JewleryComponent },
-  { path: 'ContactUs', component: ContactusComponent },
+  { path: 'Connect', component: ContactusComponent },
   {path: '**', component: ErrorComponent}
 ];
 @NgModule({

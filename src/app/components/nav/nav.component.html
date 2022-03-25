@@ -1,10 +1,19 @@
 <nav>
-    <ul>
-      <li><a routerLink="/"  class="brand"><img src="../../../assets/svg/nonis logo.svg"/><h2>Nonnis</h2></a></li>
-      <li><a routerLink="Jewlery">Antique Jewlery</a></li>
-      <li><a routerLink="Beeds">Beeds</a></li>
-      <li><a  routerLink="Services">Services</a></li>
-      <li><a  routerLink="Specials">Very Special Specials</a></li>
-      <li><a  routerLink="ContactUs">Connect With US</a></li>
-    </ul>
-  </nav>
+  <div [class.closed]="menuOpen" class="menu-toggle"  (click)="toggleMenu()">
+  </div>
+  <ul [class.closed]="!menuOpen" (click)="toggleMenu()">
+    <li>
+      <a routerLink="/" class="brand">
+        
+        
+        <img src="../../../assets/svg/nonis logo.svg"/>
+        <h2>Nonnis</h2></a
+      >
+    </li>
+    <li><a routerLink="Jewlery">Antique Jewlery</a></li>
+    <li><a routerLink="Beeds">Beeds</a></li>
+    <li><a routerLink="Services">Services</a></li>
+    <li><a routerLink="Specials">Very Special Specials</a></li>
+    <li><a routerLink="Connect">Connect With US</a></li>
+  </ul>
+</nav>
