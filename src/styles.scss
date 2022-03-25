@@ -1,7 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
-
+@import "./reset.scss";
 @import "./variables.scss";
 @import "./typography.scss";
 body {
-    background-color: #ffffff;
+    font-size: 14px;
+    background-color: $light;
+    font-family: $font-body;
 }
